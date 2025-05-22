@@ -10,7 +10,7 @@ sns.set(style="whitegrid")
 # Load dataset from GitHub (replace this URL with your own raw CSV link)
 @st.cache_data
 def load_data():
-    url = "https://raw.githubusercontent.com/your-username/your-repo/main/mental_health_dataset.csv"
+    url = "https://raw.githubusercontent.com/shayrokban/midtermnew/refs/heads/main/mental_health_dataset%20(1).csv"
     return pd.read_csv(url)
 
 # Load the data
